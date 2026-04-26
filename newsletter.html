@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puerto Rico Culture</title>
+
+
+  <link rel="stylesheet" href="news.css">
+  
+</head>
+
+
+
+<body>
+<style>
+
+ * {
+ margin: 10;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+ }
+
+ body {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ color: #222;
+ position:-webkit-sticky;
+ min-height: 100vh;
+ background-color:  rgb(224, 244, 245);
+ }
+
+ h1{
+
+       border: 6px solid skyblue ;
+   padding: 10px;
+   background-color: white;
+   color: red;
+   text-align: center;
+   font-family: Lucida Handwriting;
+   margin: 20px;
+ }
+
+ .modal {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 0.4rem;
+ width: 450px;
+ padding: 1.3rem;
+ min-height: 250px;
+ top: 20%;
+ background-color: white;
+ border: 1px solid #ddd;
+ border-radius: 15px; 
+ }
+
+ .modal .flex{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+
+ button {
+ cursor: pointer;
+ border: none;
+ font-weight: 600;
+ }
+
+ .modal input{
+ padding: .7rem 1rem;
+ border: 1px solid #222;
+ border-radius: 5px;
+ font-size: .9em;
+ }
+
+ .modal p {
+ font-size: 0.9rem;
+ color: #777;
+ margin: 0.4rem 0 0.2rem;
+ }
+
+ button {
+ cursor: pointer;
+ border: none;
+ font-weight: 600;
+ }
+
+ .btn {
+ display: inline-block;
+ padding: 0.8rem 1.4rem;
+ font-weight: 700;
+ background-color: rgb(2, 53, 55);
+ color: white;
+ border-radius: 5px;
+ text-align: center;
+ font-size: 1em;
+ }
+
+ .btn-open {
+ position: fixed;
+ bottom: 150px;
+ }
+
+.btn-close {
+ transform: translate(10px, -20px);
+ padding: 0.5rem 0.7rem;
+ background: #eee;
+ border-radius: 50%;
+ }
+
+ .overlay {
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.5);
+ backdrop-filter: blur(3px);
+ z-index: 1;
+}
+
+.modal {
+ z-index: 2;
+}
+
+.hidden {
+ display: none;
+}
+
+</style>
+
+<header>
+
+<h1>
+Thanks for stopping by ! 
+</h1>
+<p style="font-size: 40px">
+    For more information on the Enchanted Island of Puerto Rico Subscibe!
+</p>
+</header>
+<section id="modal" class="modal hidden">
+ <div class="flex">
+ <img src="flag.jpg" width="330px" height="220px" alt="user" />
+ <button class="btn-close" id="btn-close">close</button>
+ </div>
+
+ <div>
+ <h3>Stay Connected With us!!!</h3>
+ <p>
+ Enter your email to stay connected with all travel news Puerto Rico ! &#128540;
+ </p>
+</div>
+
+<input type="email" id="email" placeholder="BorinquenTG.com" />
+ <button class="btn" id="btnsubs">Subscribe</button>
+
+</section>
+
+ <div class="overlay hidden" id="overlay"></div>
+<img src="oldsanjuan.jpg" width="800px" height="600px" />
+<button class="btn btn-open" id="btn-open">Subscribe to the Borinquen Travel Guide NewsLetter</button>
+
+
+
+
+
+
+
+</body>
+
+
+<script src="javascript/scripts.js"></script>
+</html>
