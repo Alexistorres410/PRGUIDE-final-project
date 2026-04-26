@@ -1,0 +1,187 @@
+body{
+
+  background-color: rgb(224, 244, 245);
+}
+
+
+
+
+h1 {
+   border: 6px solid skyblue ;
+   padding: 10px;
+   background-color: white;
+   color: red;
+   text-align: center;
+   font-family: Lucida Handwriting;
+   margin: 20px;
+}
+
+
+h2{
+  border: 6px solid skyblue ;
+   padding: 10px;
+   background-color: white;
+   color: red;
+   text-align: center;
+   font-family: Lucida Handwriting;
+   font-size: 30px;
+}
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  padding: 14px 16px;
+}
+
+ul li a:hover {
+  background-color: skyblue;
+}
+.navbar-nav .nav-item a.nav-link {
+  color: #ff6347;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: skyblue;
+  width: 100%;
+  border-style: solid;
+  border-color: skyblue;
+  
+  
+}
+
+
+
+img{
+display: block;
+margin: 50px;
+border-radius: 8px;
+opacity: .8;
+transform: translate(-20%, 10px);
+border: 10px solid skyblue;
+}
+
+.top-right{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 50px;
+  font-family: arial;
+  font-weight: bold;
+  
+  color: white;
+
+}
+
+
+
+
+.bottom-left{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 40px;
+  font-family: arial;
+  font-weight: bold;
+  
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  font-size: 100px;
+  font-family: Lucida handwriting;
+  color: red;
+  font-weight: bold;
+}
+
+.bottom-right{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 50px;
+  font-family: arial;
+  font-weight: bold;
+  
+  color: white;
+}
+
+
+p1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+
+}
+
+p2{
+font-size: 25px;
+
+}
+
+p3{
+  padding-left: 0px;
+  font-size: 30px;
+}
+
+pre{
+  
+  font-size: 30px;
+}
+
+
+/*photos*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ /*Photos*/
+
+  /*photo*/
+  
+.rowtwo {
+  display: flex;
+}
+
+
+.columntwo {
+  flex: 33.33%;
+  padding: 20px;
+  gap: 5px;
+  align-items:first baseline;
+}
+
+ul.a{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+
+}
